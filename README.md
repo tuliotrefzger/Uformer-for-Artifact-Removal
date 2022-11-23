@@ -106,7 +106,7 @@ If you find this project useful in your research, please consider citing:
 
 ## Acknowledgement
 
-This code borrows heavily from [MIRNet](https://github.com/swz30/MIRNet) and [SwinTransformer](https://github.com/microsoft/Swin-Transformer).
+This code is based on [MIRNet](https://github.com/ZhendongWang6/Uformer).
 
 
 ## Contact
