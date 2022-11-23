@@ -107,11 +107,10 @@ degradation = "GaussianNoise"
 print(("Degradation: " + degradation).upper())
 print()
 
-## Directory where the unmodified dataset images are located in my local repository
-## (which won't be uploaded to GitHub due to its size).
-## If you don't have the dataset with you, it can be found in the commented directory.
-unmodified_dataset_directory = "patientImages/splits"
-# unmodified_dataset_directory = "/mnt/nas/GianlucasLopes/NeuralBlack/patientImages/splits"
+## Directory where the unmodified dataset images are located.
+unmodified_dataset_directory = (
+    "/mnt/nas/GianlucasLopes/NeuralBlack/patientImages/splits"
+)
 
 ## Directory containing the degraded images (same as in the ApplyArtifact.py file)
 degraded_directory_root = ""

@@ -194,12 +194,10 @@ degradation = "Ghosting"
 print(("Degradation: " + degradation).upper())
 print()
 
-## Directory where the images are located in my local repository (which won't be uploaded to GitHub due to its size).
-## If you don't have the dataset with you, it can be found in the commented directory.
-directory = "patientImages/splits"
-# directory = "/mnt/nas/GianlucasLopes/NeuralBlack/patientImages/splits"
+## Directory where the dataset is located
+directory = "/mnt/nas/GianlucasLopes/NeuralBlack/patientImages/splits"
 
-## The destination directory where the degraded images will be stored.
+## The destination directory where the degraded dataset will be stored.
 degraded_directory_root = ""
 
 ## For loop to generate the 10 different degradation levels
