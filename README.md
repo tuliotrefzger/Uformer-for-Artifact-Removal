@@ -13,7 +13,7 @@ The dataset used in this project is the [Brain Tumor Dataset](https://figshare.c
 
 ## Instructions
 
-* If for some reason you cannot access the dataset through the "/mnt/nas/GianlucasLopes/NeuralBlack/patientImages/splits" path or you do not have access to the GPDS GPU server, download the dataset from the link above and replace the line containing this old path for whatever path you decide to give to this dataset.
+* If for some reason you cannot access the dataset through the "/mnt/nas/GianlucasLopes/NeuralBlack/patientImages/splits" path or you do not have access to the GPDS GPU server, download the dataset from the link above and replace the lines containing this old path for whatever path you decide to give to this dataset.
 * Run applyArtifact.py to produce the 10 different degraded versions of the dataset corresponding to the 10 levels of degradation. Repeat this process for the 5 different artifacts.
 * Run applyUformerDirectory.py to produce the 10 restored versions of the degraded artifacts. Repeat this process for the 5 different artifacts.
 * Go to [brain-tumor-classifier-with-Uformer](https://github.com/tuliotrefzger/brain-tumor-classifier-with-Uformer) and follow the next steps.
