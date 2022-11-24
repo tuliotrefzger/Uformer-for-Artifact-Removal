@@ -17,3 +17,14 @@ The dataset used in this project is the [Brain Tumor Dataset](https://figshare.c
 * Run applyArtifact.py to produce the 10 different degraded versions of the dataset corresponding to the 10 levels of degradation. Repeat this process for the 5 different artifacts.
 * Run applyUformerDirectory.py to produce the 10 restored versions of the degraded artifacts. Repeat this process for the 5 different artifacts.
 * Go to [brain-tumor-classifier-with-Uformer](https://github.com/tuliotrefzger/brain-tumor-classifier-with-Uformer) and follow the next steps.
+
+
+## Example
+
+Example of an MRI containing a meningioma tumor degraded by the blurring artifact:
+
+![459](https://user-images.githubusercontent.com/51811381/203669843-e6022cc2-ddcf-4817-a9cb-5777bcd955d4.png)
+
+The same MRI restored using Uformer:
+
+![459](https://user-images.githubusercontent.com/51811381/203669989-211b262e-aaa4-48d4-a064-79672286200e.png)
