@@ -194,7 +194,8 @@ degradation = "Ghosting"
 print(("Degradation: " + degradation).upper())
 print()
 
-## Directory where the dataset is located
+## Directory where the original dataset is located (change it to the path where your
+## downloaded version is located if necessary).
 directory = "/mnt/nas/GianlucasLopes/NeuralBlack/patientImages/splits"
 
 ## The destination directory where the degraded dataset will be stored.

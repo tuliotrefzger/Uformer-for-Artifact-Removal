@@ -107,7 +107,8 @@ degradation = "GaussianNoise"
 print(("Degradation: " + degradation).upper())
 print()
 
-## Directory where the unmodified dataset images are located.
+## Directory where the original dataset is located (change it to the path where your
+## downloaded version is located if necessary).
 unmodified_dataset_directory = (
     "/mnt/nas/GianlucasLopes/NeuralBlack/patientImages/splits"
 )
